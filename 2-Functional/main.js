@@ -3,7 +3,7 @@
 
 // Given an array of numbers, double each number and return a new array
 const numbers = [1, 2, 3, 4, 5];
-const doubledNumbers = [];
+let doubledNumbers = [];
 
 // Imperative (Non-Functional) Approach
 for (let i = 0; i < numbers.length; i++) {
@@ -42,7 +42,7 @@ console.log(add(2, 3)); // 5 (always same output)
 
 const numbers2 = [1, 2, 3, 4];
 
-// Non-functional (Mutates the array)
+// Non-functional (Mut>ates the array)
 numbers2.push(5); // ❌ Avoid mutation
 
 // Functional (Creates a new array)
@@ -66,9 +66,4 @@ function multiply (a, b) {
 	return a * b;
 }
 
-console.log(aplicarOperacion(3, 4, multiply));  // 12
-
-
-
-
-
+console.log(applyOperation(3, 4, multiply)); // 12

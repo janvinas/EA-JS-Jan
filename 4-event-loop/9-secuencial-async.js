@@ -45,4 +45,3 @@ console.log("Inicio");
 fetchOrderDetails();
 
 
-

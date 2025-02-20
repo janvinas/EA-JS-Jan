@@ -1,5 +1,12 @@
 # EA-JS
 
+## Entrega després del seminari
+
+Fonts:
+
+* https://jsonplaceholder.typicode.com/
+* https://javascript.info/array-methods
+
 ## Requisitos Previos
 
 Asegúrate de tener instalados los siguientes programas en tu sistema:
